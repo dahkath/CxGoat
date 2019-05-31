@@ -35,6 +35,7 @@ public class Assignment5 extends AssignmentEndpoint {
 
     @RequestMapping(method = POST)
     @ResponseBody
+/* Comment */
     public AttackResult login(@RequestParam String username_login, @RequestParam String password_login) throws Exception {
         Connection connection = DatabaseUtilities.getConnection(webSession);
         checkDatabase(connection);
