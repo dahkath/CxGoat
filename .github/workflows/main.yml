@@ -9,7 +9,7 @@ jobs:
     - name: Checkmarx Action
       uses: checkmarx-ts/checkmarx-github-action@v1.0.2
       with:
-        cxServer: https://0cdabf6989e0.ngrok.io
+        cxServer: https://3027011ed61d.ngrok.io
         cxUsername: admin@cx
         cxPassword: ${{ secrets.CX_PASSWORD }}
         cxTeam: \CxServer\SP\Company\TeamA
